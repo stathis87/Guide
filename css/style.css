@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Work+Sans:wght@400;500;600&display=swap');
+
+/* TODO: For accesibility we can add a button to change fonts and background colour */
+
+body {
+	font-family: 'Gugi', cursive, 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #000;
+	color: #ffffff;
+
+	padding-top: 104px;
+
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	width: 64px;
+}
+
+
+header nav a {
+	margin-left: 10px;
+	/* hover transition */
+	transition: border 0.3s ease-in;
+	/* we can add transition delay as well adding a second number above transition: border 0.3s 2s ease-in; */
+	border-bottom: solid 2px rgba(0, 0, 0, 0);
+	padding-bottom: 3px;
+}
+
+header nav a:hover {
+	border-bottom: solid 2px #555;
+}
+
+header nav a.selected {
+	/* if we had only the selected */
+	/* border-bottom: 2px solid #ffffff;
+	padding-bottom: 3px; */
+	/* if we specify the header nav a.selected then we manage to keep the selected with no overlay */
+	border-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+footer {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+/* Media Queries */
+
+
+@media (max-width: 940px) {
+	
+
+}
+
+@media (max-width: 680px) {
+
+	
+
+}
+
+	@media (max-width: 450px) {
+		
+	}
