@@ -12,14 +12,17 @@ body {
 	color: #FFF500;
 	padding: 3em 3em;
 }
-  
-img {
-	margin: 3em auto;
-}
+
 /* INDEX */
 
 #intro h1 {
 	font-size: 35px;
+}
+
+#intro img {
+	width: 80%;
+	margin: 2em auto;
+	display: block;
 }
 
 #intro h3 {
@@ -30,7 +33,7 @@ img {
 }
 
 #intro .scrollable-text {
-	height: 45vh;
+	height: 30vh;
 	overflow-y: scroll;
 }
 
