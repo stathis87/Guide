@@ -2,21 +2,98 @@
 
 /* TODO: For accesibility we can add a button to change fonts and background colour */
 
+/* GLOBAL */ 
+
 body {
-	font-family: 'Gugi', cursive, 'Work Sans', sans-serif;
-	font-size: 16px;
+	font-family: 'Gugi', cursive, 'Work Sans', sans-serif; 
+	font-size: 14px;
 	line-height: 1.5;
-	background-color: #000;
-	color: #ffffff;
+	background-color: #000312;
+	color: #FFF500;
+	padding: 3em 3em;
+}
+  
+img {
+	margin: 3em auto;
+}
+/* INDEX */
 
-	padding-top: 104px;
-
+#intro h1 {
+	font-size: 35px;
 }
 
+#intro h3 {
+	font-size: 24px;
+	letter-spacing: 0.2em;
+	line-height: 30px;
+	padding-bottom: 1em;
+}
+
+#intro .scrollable-text {
+	height: 45vh;
+	overflow-y: scroll;
+}
+
+#intro .scrollable-text p {
+	padding-right: 1em;
+	font-size: 11px;
+	line-height: 18px;
+	letter-spacing: 0.2em;
+}
+
+#intro-footer {
+	padding-bottom: 3em;
+	position: fixed;
+	bottom: 0;
+	right: 0;	
+	width: 100%;
+}
+
+#intro-footer div.flex-container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#intro-footer button {
+	font-family: 'Gugi', cursive, 'Work Sans', sans-serif; /* the one on the body didn't work */
+	background-color:  #FFF500;
+	border: solid 1px  #FFF500;
+	border-bottom-right-radius: 10px;
+	color: #000312;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 35px;
+	min-width: 280px;
+	cursor: pointer;
+}
+  
+#intro-footer button:hover{
+	background-color: #000312;
+	color: #FFF500;
+}
+
+/* LAYOUT */
+
+
+
+/* EXHIBIT */
+
+
+
+
+/* OTHER - css stathis put here at the start */
+
+/*
 a {
 	color: #ffffff;
 	text-decoration: none;
 }
+
+
 header {
 	position: fixed;
 	top: 0px;
@@ -28,9 +105,11 @@ header {
 	align-items: center;
 }
 
+
 header h1 {
 	width: 64px;
 }
+*/
 
 
 header nav a {
@@ -42,9 +121,12 @@ header nav a {
 	padding-bottom: 3px;
 }
 
+
+/*
 header nav a:hover {
 	border-bottom: solid 2px #555;
 }
+*/
 
 header nav a.selected {
 	/* if we had only the selected */
@@ -54,21 +136,15 @@ header nav a.selected {
 	border-color: #ffffff;
 }
 
-
-
-
-
-
-
-
+/*
 footer {
 	padding: 20px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
-
+*/
 
 /* Media Queries */
 
