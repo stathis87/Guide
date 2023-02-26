@@ -20,7 +20,7 @@ body {
 }
 
 #intro img {
-	width: 80%;
+	height: 20vh;
 	margin: 2em auto;
 	display: block;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 #intro-footer {
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 	position: fixed;
 	bottom: 0;
 	right: 0;	
@@ -69,8 +69,8 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: block;
-	font-size: 35px;
-	min-width: 280px;
+	font-size: 26px;
+	min-width: 220px;
 	cursor: pointer;
 }
   
