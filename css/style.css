@@ -98,13 +98,6 @@ h1 {
 	z-index: 10;
 }
 
-#layout-header div.flex-container
-{
-	display: flex;
-	justify-content: left;
-	align-items: center;
-}
-
 #layout-header a {
 	color: #FFF500;
 	text-decoration: none;
