@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Guide</title>
-  <link rel="stylesheet" type="text/css" href="./css/base.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <head>
+    <title>Guide</title>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <script src="js/p5/p5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script> -->
+    <script src="https://kit.fontawesome.com/2c0b9a4bba.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-	<meta name="fragment" content="!">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
-	<!-- Favicons  -->
-  <!-- <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="./assets/images/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff"> -->
+    <meta name="fragment" content="!">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <script src="js/map.js"></script>
+  </head>
 
-  <!-- Sharing options -->
+  <body>
+    <header id="layout-header">
+      <div class="flex-container">
+        <a href='index.html'>
+          <i class="fas fa-chevron-left"></i> back to intro
+        </a>
+      </div>
+    </header>
 
-	<!-- Facebook Sharing -->
-	<!-- <meta property="og:url"                content=""/>
-	<meta property="og:type"               content="website"/>
-	<meta property="og:title"              content="exhibition guide"/>
-	<meta property="og:description"        content="An exhibition guide"/>
-	<meta property="og:image"              content="./assets/images/"/> -->
-
-	<!-- Twitter -->
-	<!-- <meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="">
-	<meta property="twitter:title" content="Guide">
-	<meta property="twitter:description" content="Exhibition Guide">
-	<meta property="twitter:image" content="/images/image_3.jpg"> -->
-
-</head>
-
-
-<body>
-
-  <header>
-    <nav>
-
-    </nav>
-  </header>
-
-  <section>
-
-  </section>
-
-</body>
+    <section id="layout">
+      <h1> POP UP </h1>
+      <div id="map" class="p5"></div>
+      <div id="art-works-list">
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>Femicide</p>
+            <p>Stathis Doganis</p>
+          </div>
+        </div>
+        <hr>
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>Con-Touch</p>
+            <p>Samuele Albani</p>
+          </div>
+        </div>
+        <hr>
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>the helping hand</p>
+            <p>Sofia Taipa</p>
+          </div>
+        </div>
+        <hr>
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>Reef Watch</p>
+            <p>Lili Chasioti</p>
+          </div>
+        </div>
+        <hr>
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>ofNewLeaves()</p>
+            <p>Samuele Albani</p>
+          </div>
+        </div>
+        <hr>
+        <div class="art-work">
+          <img src="pngs/art-work-temp.png" alt="art work #1">
+          <div class="title">
+            <p>Sunset Visualizer</p>
+            <p>Sofia Taipa</p>
+          </div>
+        </div>      
+      </div>
+    </section>
+  </body>
+</html>
