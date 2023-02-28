@@ -9,7 +9,7 @@ let map = function (s) {
     let mapImg;
     let div, divW, divH;
     s.preload = function(){
-        mapImg = loadImage("../pngs/map.png");
+        mapImg = loadImage("https://stathis87.github.io/Guide/pngs/map.png");
     }
     s.setup = function () {
         updateCanvas();
