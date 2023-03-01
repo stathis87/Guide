@@ -1,3 +1,6 @@
+//The player is a modified version taken from this page
+//https://ide.geeksforgeeks.org/online-html-editor/T3gdWUn4aX
+
 let track_name = document.querySelector(".track-name");
 
 let playpause_btn = document.querySelector(".playpause-track");
