@@ -8,10 +8,13 @@ let map = function (s) {
     let cnv;
     let mapImg;
     let div, divW, divH;
+    s.preload = function(){
+        mapImg = loadImage("https://stathis87.github.io/Guide/pngs/map.png");
+    }
     s.setup = function () {
         updateCanvas();
 
-        mapImg = loadImage("../pngs/map.png");
+       
     };
 
     s.draw = function () {
